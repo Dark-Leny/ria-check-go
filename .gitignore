@@ -1,0 +1,114 @@
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables d'environnement - TRÈS IMPORTANT
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers système Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Fichiers système Linux
+*~
+.directory
+.Trash-*
+
+# Éditeurs et IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.sublime-project
+.sublime-workspace
+*.sublime-*
+.project
+.classpath
+.settings/
+.buildpath
+
+# Distribution et build
+dist/
+build/
+*.tgz
+out/
+
+# Tests et couverture
+coverage/
+.nyc_output/
+*.lcov
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.npm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Temporaires
+tmp/
+temp/
+*.tmp
+*.temp
+.temp/
+.tmp/
+
+# Fichiers de debug
+debug.log
+error.log
+
+# Documentation générée
+docs/generated/
+
+# Fichiers de base de données locaux
+*.db
+*.sqlite
+*.sqlite3
+
+# Fichiers de session
+sessions/
+
+# Package lock (décommenter selon votre préférence)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Fichiers de backup
+*.bak
+*.backup
+*~
+
+# Fichiers spécifiques au projet
+rapport-*.pdf
+diagnostics/
